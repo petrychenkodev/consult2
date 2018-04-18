@@ -1,0 +1,230 @@
+.header{
+	background-color: #262829;
+	color: #5d6163;
+	min-height:50px;
+}
+.logo{
+	margin-bottom:20px;
+}
+.emapho{
+	font-family: 'Montserrat', sans-serif;
+	font-size:12px;
+	line-height:36px;
+    list-style: none;
+	padding-top:5px;
+}
+.emapho__item{
+	display: inline;
+	margin-left:60px;
+	text-transform:uppercase;
+}
+.emapho__white{
+	color: #ffffff;
+}
+.navigation{
+	background: #ffffff;
+	padding-top: 30px;
+}
+.nav__a{
+	text-decoration: none;
+	color: #4e4e4e;
+}
+.nav__item{
+	display:inline;
+	margin-left:30px;
+	text-transform:uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+	line-height:30px;
+}
+.nav__a:hover{
+	text-decoration: none;
+	color: #ffac56;
+}
+
+/*BIG IMG BLOCK START*/
+
+.bigimg{
+	background-image: url("../img/bigimggirl.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.constructor{
+	margin-top: 170px;
+	display:flex;
+    flex-wrap:wrap;
+    font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+	text-transform:uppercase;
+	color: #ffffff;
+}
+.constructor__choose{
+	background-color: #ffac56;
+	padding:20px 15px;
+	flex-basis: 100%;
+}
+.constructor__choose span{
+	font-size:30px;
+}
+.constructor__block{
+	background-color: #03b6e7;
+	border: 1px solid #00a6d3;
+	flex: 1 0 50%;
+	position: relative;
+}
+.constructor__block:hover{
+	background-color: #00a6d3;
+}
+.constructor__education:before{
+	content: url(../img/education.png);
+	display: block;
+	padding-top: 35px;
+	padding-left: 40px;
+}
+.constructor__education span{
+	display: inline-block;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.constructor__education:after{
+	content: url(../img/nextbutton.png);
+	position: absolute;
+	right: 10px;
+	bottom:10px;
+	
+}
+.constructor__business:before{
+	content: url(../img/business.png);
+	display: block;
+	padding-top: 35px;
+	padding-left: 40px;
+}
+.constructor__business span{
+	display: inline-block;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.constructor__business:after{
+	content: url(../img/nextbutton.png);
+	position: absolute;
+	right: 10px;
+	bottom:10px;
+}
+.constructor__technology:before{
+	content: url(../img/technology.png);
+	display: block;
+	padding-top: 35px;
+	padding-left: 40px;
+}
+.constructor__technology span{
+	display: inline-block;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.constructor__technology:after{
+	content: url(../img/nextbutton.png);
+	position: absolute;
+	right: 10px;
+	bottom:10px;
+}
+.constructor__estate:before{
+	content: url(../img/realestate.png);
+	display: block;
+	padding-top: 35px;
+	padding-left: 40px;
+}
+.constructor__estate span{
+	display: inline-block;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.constructor__estate:after{
+	content: url(../img/nextbutton.png);
+	position: absolute;
+	right: 10px;
+	bottom:10px;
+}
+.constructor__bankinkg:before{
+	content: url(../img/banking.png);
+	display: block;
+	padding-top: 35px;
+	padding-left: 40px;
+}
+.constructor__bankinkg span{
+	display: inline-block;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.constructor__bankinkg:after{
+	content: url(../img/nextbutton.png);
+	position: absolute;
+	right: 10px;
+	bottom:10px;
+}
+.constructor__more{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding:20px 41px;
+}
+.constructor__more a{
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 1px solid #16d428;
+	border-radius: 50px;
+	background-color:#16d428;
+	color: #ffffff;
+}
+
+/*BIG IMG BLOCK END*/
+
+/*ABOUT US BLOCK START*/
+
+
+.preline{
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+	color: #939798;
+	text-align: right;
+	padding-top: 80px;
+	line-height: 0px;
+	margin-bottom:-20px;
+}
+.aboutus h1{
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size:32px;
+	font-weight: bold;
+	text-align: right;
+	line-height: 0px;
+	padding-bottom: 65px;
+}
+.aboutus p{
+	padding-left: 30px;
+	font-family: 'Domine', sans-serif;
+	color: #939798;
+	font-size: 15px;
+	line-height: 28px;
+	padding-bottom: 35px;
+}
+.aboutus a{
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 1px solid #16d428;
+	border-radius: 50px;
+	background-color:#16d428;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size:13px;
+	float: right;
+}
+.paperman{
+	content: url(../img/paperman.png);
+	width:100%;
+	padding: 80px 0px;
+}
+
+/*ABOUT US BLOCK END*/
