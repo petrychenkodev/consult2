@@ -3,6 +3,10 @@
 	color: #5d6163;
 	min-height:50px;
 }
+a:hover{
+	transform: scale(0.9);
+	transition: 0.5s;
+}
 .logo{
 	margin-bottom:20px;
 }
@@ -326,6 +330,152 @@
 
 /*PROJECTS BLOCK START*/
 
+.projects{
+    height: 720px;
+    background-color: #ffffff;
+}
+.projects__preline{
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+	color: #939798;
+	text-align: left;
+	padding-top: 80px;
+	line-height: 20px;
+}
+.projects h1{
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size:32px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 0px;
+}
+.projects__banking{
+    margin-top: 35px;
+    display: inline-block;
+    position: relative;
+}
+.projectman{
+    width: 520px;
+}
 
+.banking__text{
+    display: block;
+    position: absolute;
+    color: #ffffff;
+    top: 20px;
+    left:30px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+	font-size:12px;
+    line-height: 33px;
+    border: 2px solid #ffac56;
+    border-radius: 50px;
+    padding:5px 30px 5px 30px; 
+}
+.banking__shape{
+    position:absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.projects__heading{
+    display: inline-block;
+    position: relative;
+    width: 220px;
+    height: 200px;
+    background-color: #ffac56;
+    margin-top: 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+.projects__heading h1{
+    font-family: 'Montserrat', sans-serif;
+	font-size:18px;
+    line-height: 33px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 15%;
+}
+.projects__heading p{
+    font-family: 'Domine', sans-serif;
+	font-size:15px;
+    line-height: 22px;
+    color: #ffffff;
+}
+.projects__shapeactive{
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+}
+.projects__technology{
+ 	display: inline-block;
+    position: relative;
+    margin-top: 160px;
+    margin-left:20px;
+}
+.technologyimg{
+	width: 220px;
+    height: 200px;
+    
+}
+.technology__text{
+    display: block;
+    position: absolute;
+    color: #ffffff;
+    top: 10px;
+    left:15px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+	font-size:12px;
+    line-height: 33px;
+    border: 2px solid #ffac56;
+    border-radius: 50px;
+    padding:3px 15px 3px 15px; 
+}
+.projects__shape{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+.projects__realestate{
+	display: inline-block;
+    position: relative;
+    margin-top: 20px;
+}
+.realestateimg{
+	width: 465px;
+	height: 170px;
+}
+.realestate__text{
+    display: block;
+    position: absolute;
+    color: #ffffff;
+    top: 10px;
+    left:15px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+	font-size:10px;
+    line-height: 33px;
+    border: 2px solid #ffac56;
+    border-radius: 50px;
+    padding:3px 20px 3px 20px; 
+}
+.fullprojects{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+}
+.fullprojects a{
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+	border: 1px solid #16d428;
+	border-radius: 50px;
+	background-color:#16d428;
+	color: #ffffff;
+	text-transform: uppercase;
+}
 
 /*PROJECTS BLOCK END*/
