@@ -642,4 +642,31 @@ a:hover{
 	display: inline-block;
 	padding-right: 40px;
 }
+.contactusinbo h3{
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size:18px;
+	font-weight: bold;
+	display: inline-block;
+}
+.contactusinbo p{
+	font-family: 'Domine', sans-serif;
+	font-size:18px;
+}
+
+.contactus__box{
+	display: inline-block;
+	padding-top: 30px;
+}
+.contactus__border{
+	border: 1px solid grey;
+	margin-top: 30px;
+	margin-bottom: 80px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.contactus__border img{
+	padding-top: 10px;
+}
 /*CONTACTUS END*/
