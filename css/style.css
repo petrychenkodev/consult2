@@ -602,11 +602,8 @@ a:hover{
 	background-color: #e7eff1;
 }
 .ourblogman{
-	background: url(../img/ourblogman.png) no-repeat left top;
-	background-size: cover;
+	object-fit: cover;
 	height: 100%;
-	width: 100%;
-
 }
 .ourblogmanclass{
 	position: absolute;
