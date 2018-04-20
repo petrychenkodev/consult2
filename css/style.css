@@ -604,10 +604,21 @@ a:hover{
 .ourblogman{
 	background: url(../img/ourblogman.png) no-repeat left top;
 	background-size: cover;
-	position: absolute;
 	height: 100%;
 	width: 100%;
 
+}
+.ourblogmanclass{
+	position: absolute;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+.rowrelarive{
+	position: relative;
+}
+.ourblogpadding{
+	padding-left: 20%;
 }
 
 /*OUR BLOG END*/
