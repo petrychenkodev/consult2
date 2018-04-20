@@ -605,9 +605,8 @@ a:hover{
 	background: url(../img/ourblogman.png) no-repeat left top;
 	background-size: cover;
 	position: absolute;
-	left: 50%;
 	height: 100%;
-	width: 50%;
+	width: 100%;
 
 }
 
