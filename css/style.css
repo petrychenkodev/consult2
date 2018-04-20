@@ -600,26 +600,37 @@ a:hover{
 }
 .ourblog{
 	background-color: #e7eff1;
-	background-image: url(../img/ourblogman.png);
-	background-position: 800px -100px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	
-
 }
-/*
 .ourblogman{
 	background: url(../img/ourblogman.png) no-repeat left top;
 	background-size: cover;
+	position: absolute;
+	left: 50%;
 	height: 100%;
-    width: 50%;
-    position: absolute;
-    left: 50%;
-    background-clip: border-box;
+	width: 50%;
 
-	
-	
+}
 
-    
-    
-}*/
+/*OUR BLOG END*/
+/*CONTACTUS START*/
+
+.contactus__preline{
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+	color: #939798;
+	text-align: left;
+	padding-top: 80px;
+	line-height: 20px;
+}
+.contactus h1{
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size:32px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 0px;
+	display: inline-block;
+	padding-right: 40px;
+}
+/*CONTACTUS END*/
