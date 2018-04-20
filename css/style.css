@@ -604,12 +604,14 @@ a:hover{
 .ourblogman{
 	object-fit: cover;
 	height: 100%;
+
 }
 .ourblogmanclass{
 	position: absolute;
     height: 100%;
     right: 0;
     top: 0;
+    overflow: hidden;
 }
 .rowrelarive{
 	position: relative;
