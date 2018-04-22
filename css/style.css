@@ -670,3 +670,70 @@ a:hover{
 	padding-top: 10px;
 }
 /*CONTACTUS END*/
+/*FOOTER*/
+
+.footer{
+	background-color: #262829;
+}
+
+.footer h3{
+	color: #e1e1e1;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size:18px;
+	font-weight: bold;
+	display: inline-block;
+	margin-top: 90px;
+}
+.footer p{
+	color: #838b8c;
+	font-family: 'Domine', sans-serif;
+	font-size:15px;
+	line-height: 24px;
+	padding-top: 20px;
+}
+.footer__form{
+	margin-top: 40px;
+}
+.footer__enter{
+	background-color: #323334;
+	color: #838b8c; 
+	outline: none;
+	border: none;
+	text-transform: uppercase;
+	padding: 20px;
+	width: 65%;
+	border-radius: 50px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.footer__submit{
+		background-color: #16d428;
+		outline: none;
+		border: none;
+		text-transform: uppercase;
+		padding: 12px;
+		width: 35%;
+		border: 3px solid #16d428;
+		border-radius: 50px;
+		color: #ffffff;
+		font-size: 20px;
+		margin-left: -50px;
+		font-weight: 500;
+		transition: 0.3s ease-out;
+}
+.footer a{
+	color:#838b8c;
+	font-family: 'Montserrat', sans-serif;
+	font-size:13px;
+	font-weight: bold;
+	line-height: 30px;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+.footer li{
+	padding-bottom: 15px;
+}
+.footer__h3{
+	padding-left: 35px;
+}
