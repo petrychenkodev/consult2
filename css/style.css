@@ -746,3 +746,49 @@ a:hover{
 		transform: translateY(45px);
 	}
 }
+
+@media only screen and (max-width : 1200px) {
+	.emapho__item{
+	margin-left:10px;
+}
+.nav__item{
+	margin-left:10px;
+}
+.projects__heading, .technologyimg, .realestateimg{
+	height:158px;
+}
+}
+@media only screen and (max-width : 992px) {
+	.ourblogman{
+		opacity: 0.1;
+	}
+	.logo{
+	margin-left:30px;
+}
+.emapho__item{
+	margin-left:-10px;
+}
+.steps__chyilorem{
+	padding-bottom: 00px;
+	width: 40%;
+}
+.steps{
+	padding-left: 40%;
+}
+.realestateimg{
+	height:230px;
+	width: 113%;
+}
+.projectman{
+    width: 106%;
+}
+.ourblog__afterh__screen{
+	transform: translateY(0px);
+}
+.ourblog__text__p2{
+	width: 70%;
+}
+
+}
+@media only screen and (max-width : 768px) {
+	}
